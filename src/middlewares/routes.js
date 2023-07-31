@@ -18,7 +18,7 @@ export const routes = [
       const completed_at = null
 
       if (!title && !description) {
-        return BadRequest(res, 'Para Criar uma Tarefa é Necessário o Envio de um Título ou Descrição')
+        return BadRequest(res, 'Para Criar uma Tarefa é Necessário o Envio de um Título e Descrição')
       }
 
       const task = {
